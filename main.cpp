@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "calender.h"
+#include "calendar.h"
 
 int getChoice(){
     int choice = 0;
@@ -23,7 +23,7 @@ int getChoice(){
 }//print menu, ask for std input, check, return a valid choice;
 
 int main(int argc, const char * argv[]) {
-    Calender calender;
+    Calendar calendar;
     create ();
     readFile ();
     int choice = getChoice();
