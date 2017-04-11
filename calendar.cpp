@@ -1,5 +1,5 @@
 //
-//  calender.c
+//  calendar.c
 //  Prog#1
 //
 //  Created by Jasmine_Gao on 4/9/17.
@@ -17,11 +17,11 @@
 #define MAX_SIZE 80
 #define INIT_SIZE 30
 
-void create (Calender* calender){
-    calender->days = malloc(sizeof(Day) * INIT_SIZE);
-    calender->size = INIT_SIZE;
-    calender->count = 0;
-}//create calender;
+void create (Calendar* calendar){
+    calendar->days = (Day*)malloc(sizeof(Day) * INIT_SIZE);
+    calendar->size = INIT_SIZE;
+    calendar->count = 0;
+}//create calendar;
 
 
 void readFile(Calendar* calendar){
@@ -54,7 +54,7 @@ void readFile(Calendar* calendar){
     fclose(fp);
 }
 
-void resize(Calendar* calender){
+void resize(Calendar* calendar){
     
 }
 

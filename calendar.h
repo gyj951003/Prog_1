@@ -1,13 +1,13 @@
 //
-//  calender.h
+//  calendar.h
 //  Prog#1
 //
 //  Created by Jasmine_Gao on 4/9/17.
 //  Copyright © 2017 Yinjie_Gao & Yisheng_Zhang. All rights reserved.
 //
 
-#ifndef calender_h
-#define calender_h
+#ifndef calendar_h
+#define calendar_h
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,4 +37,4 @@ void subjectSearch();
 
 
 
-#endif /* calender_h */
+#endif /* calendar_h */
